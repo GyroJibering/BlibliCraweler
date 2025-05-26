@@ -20,7 +20,7 @@ logging.basicConfig(level=logging.INFO,  # 设置日志级别
 # 连接 MongoDB 数据库
 def get_db_connection():
     # 连接到本地 MongoDB 数据库
-    client = MongoClient("mongodb://adminUser:snprsPassword@10.176.122.229:27017/?authSource=admin")  # 根据实际配置修改
+    client = MongoClient("mongodb")  # 根据实际配置修改
     db = client['bilibili']  # 使用 'blibli' 数据库
     collection = db['user_info']  # 使用 'user_info' 集合
     return collection
