@@ -41,4 +41,13 @@ cd BlibliCraweler
 
 # 安装 Playwright 浏览器
 playwright install chromium
-
+```
+### 配置初始化数据
+```python
+    # 初始化配置
+    video_ids = ["BV1bBoTYJEkU"]
+    storage_state_file = "bilibili_storage_state.json"
+    account_info_filename = "account1_info.json"
+    user_info_filename = "user_info.json"
+    output_filename = "video_ids.json"
+```
