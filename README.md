@@ -35,11 +35,10 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/bilibili-user-crawler.git
-cd bilibili-user-crawler
+git clone https://github.com/GyroJibering/BlibliCraweler.git
 
-# 安装依赖
-pip install -r requirements.txt
+cd BlibliCraweler
 
 # 安装 Playwright 浏览器
 playwright install chromium
+
